@@ -27,8 +27,6 @@ PRODUCT_PACKAGES += \
     libhealthd.$(PRODUCT_PLATFORM)
 
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-bootctrl.ums9230
 
 PRODUCT_PACKAGES += \
     bootctrl.ums9230
