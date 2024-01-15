@@ -27,6 +27,9 @@ PRODUCT_PACKAGES += \
     libhealthd.$(PRODUCT_PLATFORM)
 
 
+PRODUCT_PACKAGES += \
+    bootctrl \
+    bootctrl.recovery 
 
 PRODUCT_PACKAGES += \
     bootctrl.ums9230
