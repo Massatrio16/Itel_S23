@@ -19,7 +19,6 @@ AB_OTA_PARTITIONS += \
     dtbo \
     boot \
     system \
-    system \
     system_ext \
     vendor \
     product \
