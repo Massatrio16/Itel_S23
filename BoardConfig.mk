@@ -129,10 +129,6 @@ PRODUCT_COPY_FILES += \
 
 
 
-PRODUCT_PACKAGES += \
-    bootctrl \
-    bootctrl.recovery \
-    libmtk_bsg
 
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
