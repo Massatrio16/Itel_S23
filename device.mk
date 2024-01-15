@@ -25,11 +25,11 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service \
     libhealthd.$(PRODUCT_PLATFORM)
-
+TW_LOAD_VENDOR_MODULES := "goodix_fp.ko adsp_loader_dlkm.ko modules.load msm_drm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko sensors_ssc.ko qti_battery_charger_main.ko"
 
 PRODUCT_PACKAGES += \
     bootctrl \
-    bootctrl.recovery 
+    bootctrl.ums9230.recovery 
 
 PRODUCT_PACKAGES += \
     bootctrl.ums9230
