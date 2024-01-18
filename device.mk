@@ -27,9 +27,7 @@ PRODUCT_PACKAGES += \
     libhealthd.$(PRODUCT_PLATFORM)
 TW_LOAD_VENDOR_MODULES := "goodix_fp.ko adsp_loader_dlkm.ko modules.load msm_drm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko sensors_ssc.ko qti_battery_charger_main.ko"
 
-PRODUCT_PACKAGES += \
-    bootctrl \
-    bootctrl.ums9230.recovery 
+ 
 
 PRODUCT_PACKAGES += \
     bootctrl.ums9230
@@ -56,8 +54,8 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 AB_OTA_UPDATER := true
 
 # VNDK
-PRODUCT_TARGET_VNDK_VERSION := 30
-PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_TARGET_VNDK_VERSION := 31
+PRODUCT_SHIPPING_API_LEVEL := 31
 # A/B
 
 
